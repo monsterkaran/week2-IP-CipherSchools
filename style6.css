@@ -1,0 +1,57 @@
+/* This is paragraph styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Type Element Tag selector */
+strong{
+    font-size: 20px;
+}
+body{
+    color: #2f8aa9;
+}
+/* Type Element Tag selector */
+p{
+    color: inherit;
+    background-color: rgba(0,0,0,0.8);
+    /* Absolute units  */
+    width: 20px;
+    /* Relative units  */
+    width: 70vw;
+    /* The numbered values with no units */
+    margin: 0;
+    line-height: 1.2;
+}
+/* Type Element Tag selector */
+div{
+    /* Function values */
+    transform: rotate(0deg);
+    width: calc(100% - 20px);
+    background-image: url('https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_tablet_hc/v1478235006/Lucerne_Old_Town_Lucerne.jpg');
+}
+/* A shorthand property */
+/* Grouping Selector */
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+/* Class Selector */
+.heading{
+    background-color: aquamarine;
+}
+/* Id Selector */
+/* Specificity = ID > Class > Type > Universal */
+#one{
+    color: black;
+}
+.one{
+    color: blueviolet;
+}
+/* Descendant Selector */
+.div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Combining Selector */
+.container{
+    font-style: italic;
+}

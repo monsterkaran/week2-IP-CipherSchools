@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url('https://www.w3schools.com/html/workplace.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: -5%;
+    background-position-y: 20px;
+} */
+body{
+    background: url('https://www.w3schools.com/html/workplace.jpg') no-repeat -10% 20px,
+    url('https://www.w3schools.com/html/img_food.jpg') no-repeat center / 25vh 38vw;
+}
+article{
+    background-color: rgb(18,161,18);
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: #fff;
+}
+article h1{
+    font-size: 15px;
+}

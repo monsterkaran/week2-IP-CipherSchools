@@ -1,0 +1,21 @@
+div{
+    display: block;
+    overflow-x: hidden;
+    height: 100vh;
+    max-height: 100%;
+    perspective: 1px;
+    perspective-origin: center top;
+}
+section{
+    padding: 35px 20px;
+    background-color: white;
+    transform: translateZ(0);
+}
+header{
+    background: url('https://media.istockphoto.com/id/1290949981/photo/fantasy-castle-at-night.jpg?b=1&s=170667a&w=0&k=20&c=-PlcqDXKoIdMiZHRXw9wMatShA2EUC2R97Rltr_G5Ww=') no-repeat center center / cover;
+    height: 50vh;
+    position: relative;
+    padding: 1px;
+    transform-origin: center top;
+    transform: translateZ(-1px) scale(2.01);
+}

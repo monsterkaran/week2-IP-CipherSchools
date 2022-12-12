@@ -1,0 +1,40 @@
+/* * {
+    color: green; 
+} */
+p{
+     color: red;
+ }
+ p{
+     color: blueviolet;
+     font-size: 20px;
+      font-size: 30px; /* This will be prefered */
+ }
+ /*
+ .para{
+      color: black; 
+ }
+ #para{
+     color: purple; 
+ }*/ 
+/* Combinators */
+
+/* Descendant Selector */
+header p{
+     color: royalblue; 
+}
+
+/* Child Selector */
+header > p{
+     background-color: cornsilk;
+}
+
+/* Adjacent sibling selector */
+ header + p{
+     font-style: italic;
+ }
+
+ /* General Sibling selector */
+header ~ p{
+     background-color: darkgoldenrod;
+     color: #fff;
+}
